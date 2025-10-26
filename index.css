@@ -10,3 +10,10 @@ position: relative;
     width: 500px;
     position: absolute;
 }
+
+.logo{
+    top: 600px;
+    left: 300px;
+    width: 600px;
+    position: relative;
+}
