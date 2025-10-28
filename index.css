@@ -74,7 +74,7 @@
 .breathing {
 position: relative;
 width: 300;
-height: 200px;
+/* height: 200px; */
 left: 50px;
 
 }
@@ -93,15 +93,15 @@ opacity: 0.2;
 }
 
 .flyerImage{
-width: 300px;
+width: 200px;
 position: absolute;
 animation: flyer 2s infinite;
-height: 40vh;
+height: 24vh;
 top: 10px;
 }
 
 .flyerVideo{
-width: 300px;
+width: 200px;
 position: absolute;
 opacity: 0.8;
 top: 10px;
