@@ -93,15 +93,15 @@ opacity: 0.2;
 }
 
 .flyerImage{
-width: 200px;
+width: 300px;
 position: absolute;
 animation: flyer 2s infinite;
-height: 24vh;
+height: 36vh;
 top: 10px;
 }
 
 .flyerVideo{
-width: 200px;
+width: 300px;
 position: absolute;
 opacity: 0.8;
 top: 10px;
