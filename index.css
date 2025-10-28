@@ -1,24 +1,106 @@
-.wrapper{
-position: relative;
-}
-.fartVideo{
-    width: 500px;
-    position: absolute;
-    opacity: 0.7;  
-}
-.flyer{
-    width: 500px;
-    position: absolute;
+/* .animated {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: visible;
+  width: 600px;
 }
 
-.logo{
-    top: 700px;
-    left: 600px;
-    width: 300px;
-    bottom: 600px;
-    position: relative;
-    background-color: white;
+@keyframes stretch {
+  0% {
+    transform: scaleY(1);
+    rotate: -25deg;
+  }
+  25% {
+    transform: scaleX(2);
+    rotate: 25deg;
+
+  }
+ 50% {
+    transform: scaleY(4);
+    rotate: initial;
+    rotate: -25deg;
+ 
+  }
+ 75% {
+    transform: scaleY(2);
+    rotate: initial;
+    rotate: 25deg;
+  }
+  100%{
+    transform: scaleX(1);
+      rotate: initial;
+      rotate: -25deg;
+  }
 }
-.logoWrapper{
-background-color: white;
+.flyer {
+  width: 500px;
+  position: absolute;
+  transform-origin: bottom;
+
+  left: 425px;
+  top: 300px;
+}
+@keyframes dog {
+  0% {
+    left: -250px;
+    rotate: 10deg;
+  }
+  25% {
+    rotate: -10deg;
+  }
+  50% {
+    rotate: 10deg;
+  }
+  75% {
+    rotate: -10deg;
+  }
+  100% {
+    rotate: 10deg;
+    left: 1500;
+  }
+}
+
+.dog {
+  width: 300px;
+  position: relative;
+  opacity: 6.1;
+  top: 750px;
+  left: 0px;
+
+}  */
+
+.breathing {
+position: relative;
+width: 400px;
+height: 200px;
+
+}
+@keyframes flyer {
+  0%{
+opacity: 0.2;
+  }25%{
+opacity: 0.6;
+  }50%{
+opacity: 1.1;
+  }75%{
+opacity: 0.6;
+  }100%{
+opacity: 0.2;
+  }
+}
+
+.flyerImage{
+width: 900px;
+position: absolute;
+animation: flyer 2s infinite;
+height: 78vh;
+}
+
+.flyerVideo{
+width: 900px;
+position: absolute;
+opacity: 0.8;
+top: 10px;
 }
