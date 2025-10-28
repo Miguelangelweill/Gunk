@@ -96,7 +96,7 @@ opacity: 0.2;
 width: 200px;
 position: absolute;
 animation: flyer 2s infinite;
-height: 24vh;
+height: inherit;
 top: 10px;
 }
 
