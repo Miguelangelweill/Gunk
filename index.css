@@ -73,9 +73,9 @@
 
 .breathing {
 position: relative;
-width: 500px;
+width: 300;
 height: 200px;
-left: 100px;
+left: 50px;
 
 }
 @keyframes flyer {
@@ -93,15 +93,15 @@ opacity: 0.2;
 }
 
 .flyerImage{
-width: 500px;
+width: 300px;
 position: absolute;
 animation: flyer 2s infinite;
-height: 43vh;
+height: 40vh;
 top: 10px;
 }
 
 .flyerVideo{
-width: 500px;
+width: 300px;
 position: absolute;
 opacity: 0.8;
 top: 10px;
