@@ -75,6 +75,7 @@
 position: relative;
 width: 400px;
 height: 200px;
+left: 100px;
 
 }
 @keyframes flyer {
@@ -92,14 +93,15 @@ opacity: 0.2;
 }
 
 .flyerImage{
-width: 900px;
+width: 500px;
 position: absolute;
 animation: flyer 2s infinite;
-height: 78vh;
+height: 43vh;
+top: 10px;
 }
 
 .flyerVideo{
-width: 900px;
+width: 500px;
 position: absolute;
 opacity: 0.8;
 top: 10px;
