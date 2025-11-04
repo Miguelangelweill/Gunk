@@ -1,10 +1,10 @@
-/* .animated {
+.animated {
   display: flexbox;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: visible;
-  width: 600px;
+  width: 400px;
 }
 
 @keyframes stretch {
@@ -34,13 +34,21 @@
       rotate: -25deg;
   }
 }
+.Mimage{
+  position: absolute;
+  width: 200px;
+  opacity: 0.5;
+  top: 20%;
+
+}
 .flyer {
-  width: 500px;
+  width: 200px;
   position: absolute;
   transform-origin: bottom;
-
-  left: 425px;
+  animation: stretch 3s ease infinite;
+  left: 50px;
   top: 300px;
+  contain: inherit;
 }
 @keyframes dog {
   0% {
@@ -69,40 +77,40 @@
   top: 750px;
   left: 0px;
 
-}  */
+} 
 
-.breathing {
-position: relative;
-width: 300;
-/* height: 200px; */
-left: 50px;
-
-}
 @keyframes flyer {
   0%{
-opacity: 0.2;
+opacity: 0.1;
   }25%{
-opacity: 0.6;
+opacity: 0.8;
   }50%{
 opacity: 1.1;
   }75%{
-opacity: 0.6;
+opacity: 0.8;
   }100%{
-opacity: 0.2;
+opacity: 0.1;
   }
 }
 
 .flyerImage{
-width: 300px;
+width: inherit;
 position: absolute;
 animation: flyer 2s infinite;
-height: 33vh;
+height: 38vh;
 top: 10px;
 }
 
 .flyerVideo{
-width: 300px;
 position: absolute;
-opacity: 0.8;
-top: 10px;
+width: inherit;
+  opacity: 0.9;
+  top: 0%;
+}
+.breathing {
+  position: relative;
+  width: 300;
+  /* height: 200px; */
+  left: 400px;
+
 }
